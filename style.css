@@ -1,0 +1,129 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+/* common styles */
+.full-width{
+    width: 100%;
+    background-color: white;
+}
+.max-width{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0px 40px;
+}
+a{
+    text-decoration: none;
+}
+
+/* common styles end */
+
+/* Navbar */
+
+nav .navbar{
+    height: 95px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    list-style-type:none;
+}
+nav ul li a{
+    color: #575757;
+    padding: 5px 12px;
+    border-radius: 5px;
+}
+nav ul li a:hover{
+    background-color: #e0e0e0;
+}
+nav .nav-btn{
+    color: white;
+    font-weight: bold;
+    padding: 12px 42px;
+    border-radius: 10px;
+    background-color:#1D4ED8 ;
+}
+
+/* Navbar end*/
+
+/* Hero */
+.hero{
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)), url("./assets/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+}
+.hero .hero-content{
+    color: white;
+    text-align: center;
+    padding: 136px 0px 80px;
+}
+.hero-content h1{
+    font-size:80px;
+    font-width: bold;
+    padding-bottom: 16px;
+}
+.hero-content p{
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 22px;
+    width:830px ;
+    margin: 0px auto;
+    padding-bottom: 280px;
+}
+.hero-content a{
+    color: white;
+    font-weight: bold;
+    padding: 22px 62px;
+    border-radius: 10px;
+    background-color:#1D4ED8 ;
+}
+/* Hero end */
+
+/* Speakers */
+.speakers{
+    padding: 80px 0px 140px;
+}
+.speakers h2{
+    color: #000102;
+    font-size: 52px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom:56px ;
+}
+.speakers-cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+}
+.speakers-card{
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid #E5E7EB;
+}
+.speakers-card .speakers-details{
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.speakers-card .speakers-details h5{
+    color: #2563EB;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.speakers-card .speakers-details h4{
+    font-width: 700;
+    font-size: 20px;
+}
+.speakers-card .speakers-details p{
+    color: #575757;
+    font-size: 14px;
+}
+/* Speakers end */

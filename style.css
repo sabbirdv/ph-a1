@@ -18,11 +18,12 @@
 a{
     text-decoration: none;
 }
-
+hr{
+    border: 1px solid #E5E7EB;
+}
 /* common styles end */
 
 /* Navbar */
-
 nav .navbar{
     height: 95px;
     display: flex;
@@ -48,7 +49,6 @@ nav .nav-btn{
     border-radius: 10px;
     background-color:#1D4ED8 ;
 }
-
 /* Navbar end*/
 
 /* Hero */
@@ -97,6 +97,7 @@ nav .nav-btn{
 }
 .speakers-cards{
     display: grid;
+    justify-content: center;
     grid-template-columns: repeat(2, 1fr);
     gap: 32px;
 }
@@ -127,3 +128,94 @@ nav .nav-btn{
     font-size: 14px;
 }
 /* Speakers end */
+
+/* Pricing */
+.pricing-title{
+    color:#0D1B2A ;
+    font-size: 48px;
+    font-width: 700;
+    padding-bottom: 12px;
+    text-align: center;
+}
+.pricing-description{
+    color: #575757;
+    text-align: center;
+}
+.pricing-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    gap:24px;
+    padding:48px 0px 80px;
+}
+.pricing-card{
+    padding: 32px;
+    background-color: white;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.pricing-card h6{
+    color: #888888;
+    font-size: 13px;
+    font-weight: 500;
+    padding-bottom: 8px;
+    text-transform: uppercase;
+}
+.pricing-card h5{
+    color: #0D1B2A;
+    font-size:44px ;
+    font-width: 700;
+}
+.pricing-card p{
+    color: #888888;
+    font-size: 13px;
+}
+.pricing-card ul{
+    list-style-position: inside;
+    white-space: nowrap;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.pricing-card li::marker{
+    color: #2563EB;
+}
+.pricing-card li{
+    color: #333333;
+    font-size: 14px;
+}
+.pricing-card a{
+    color: #2563EB;
+    font-weight: 600;
+    padding: 11px;
+    border:1px solid #2563EB ;
+    border-radius: 8px;
+    text-align: center;
+}
+.pro-card{
+    background-color: #0D1B2A;
+    border: 1px solid #0D1B2A;
+}
+.pro-card h6{
+    color: #93C5FD;
+}
+.pro-card h5{
+    color: white;
+}
+.pro-card p{
+    color: rgba(255, 255, 255, 0.5);
+}
+.pro-card li::marker{
+    color: #60A5FA;
+}
+.pro-card li{
+    color: rgba(255, 255, 255, 0.8);
+}
+.pro-card a{
+    background-color: #2563EB;
+    color:white ;
+}
+/* Pricing end */

@@ -146,16 +146,19 @@ nav .nav-btn{
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
     gap:24px;
-    padding:48px 0px 80px;
+    padding:48px 80px 80px;
 }
 .pricing-card{
     padding: 32px;
-    background-color: white;
+    background-color: #FFFFFF;
     border: 1px solid #E5E7EB;
     border-radius: 12px;
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+.team-card{
+    background-color: #F8F9FB;
 }
 .pricing-card h6{
     color: #888888;
@@ -219,3 +222,39 @@ nav .nav-btn{
     color:white ;
 }
 /* Pricing end */
+
+/* Footer */
+.footer{
+    background-color: #0D1B2A;
+    padding: 56px 0px;
+    border: 1px solid black;
+}
+.footer .footer-section{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+.footer-section .footer-links{
+    display: flex;
+    gap: 24px;
+}
+.footer-section .social-links{
+    font-size: 30px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+.footer-section .footer-links a{
+    color: rgba(255, 255, 255, 0.4);
+}
+.horizontal-divider{
+    width: 1px;
+    height: 100px;
+    background-color: #575757;
+}
+.copyright-text{
+    color: rgba(255, 255, 255, 0.4);
+    text-align: center;
+}
+/* Footer end */

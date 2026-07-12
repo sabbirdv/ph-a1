@@ -96,7 +96,7 @@ nav .nav-btn:hover{
 /* Speakers */
 .speakers{
     padding: 80px 0px 140px;
-    background: linear-gradient(rgb(164, 168, 224) , white) ;
+    background: linear-gradient(rgb(230, 232, 255) , white) ;
 }
 .speakers h2{
     color: #000102;
@@ -257,7 +257,7 @@ nav .nav-btn:hover{
 
 /* Image gallery */
 .past-highlights-bento {
-  background: linear-gradient(0deg,  rgb(164, 168, 224) , white) ;
+  background: linear-gradient(0deg,  rgb(230, 232, 255) , white) ;
   padding: 6rem 2rem;
   font-family: 'Inter', system-ui, -apple-system, sans-serif;
 }

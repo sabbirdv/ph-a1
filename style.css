@@ -30,6 +30,9 @@ nav .navbar{
     justify-content: space-between;
     align-items: center;
 }
+nav .nav-logo{
+    cursor: pointer;
+}
 nav ul{
     display: flex;
     list-style-type:none;
@@ -48,6 +51,9 @@ nav .nav-btn{
     padding: 12px 42px;
     border-radius: 10px;
     background-color:#1D4ED8 ;
+}
+nav .nav-btn:hover{
+    background-color:#143696 ;
 }
 /* Navbar end*/
 
@@ -82,11 +88,15 @@ nav .nav-btn{
     border-radius: 10px;
     background-color:#1D4ED8 ;
 }
+.hero-content a:hover{
+    background-color:#143696 ;
+}
 /* Hero end */
 
 /* Speakers */
 .speakers{
     padding: 80px 0px 140px;
+    background: linear-gradient(rgb(164, 168, 224) , white) ;
 }
 .speakers h2{
     color: #000102;
@@ -106,6 +116,10 @@ nav .nav-btn{
     border-radius: 12px;
     overflow: hidden;
     border: 1px solid #E5E7EB;
+}
+.speakers-card:hover{
+    transform: scale(1.02);
+    transition-duration: 0.3s;
 }
 .speakers-card .speakers-details{
     padding: 24px;
@@ -157,6 +171,9 @@ nav .nav-btn{
     flex-direction: column;
     gap: 20px;
 }
+.pricing-card:hover{
+    border: 1.5px solid rgb(122, 122, 255);
+}
 .team-card{
     background-color: #F8F9FB;
 }
@@ -198,9 +215,17 @@ nav .nav-btn{
     border-radius: 8px;
     text-align: center;
 }
+.pricing-card a:hover{
+    background-color: #2563EB;
+    color:white ;
+}
 .pro-card{
     background-color: #0D1B2A;
-    border: 1px solid #0D1B2A;
+    border: 1.5px solid #0D1B2A;
+}
+.pro-card:hover{
+    border: 1.5px solid rgb(56, 199, 255);
+
 }
 .pro-card h6{
     color: #93C5FD;
@@ -221,6 +246,9 @@ nav .nav-btn{
     background-color: #2563EB;
     color:white ;
 }
+.pro-card a:hover{
+    background-color: #1d4cb1;
+}
 /* Pricing end */
 
 
@@ -229,7 +257,7 @@ nav .nav-btn{
 
 /* Image gallery */
 .past-highlights-bento {
-  background-color: #ffffff;
+  background: linear-gradient(0deg,  rgb(164, 168, 224) , white) ;
   padding: 6rem 2rem;
   font-family: 'Inter', system-ui, -apple-system, sans-serif;
 }
@@ -428,6 +456,9 @@ nav .nav-btn{
 }
 .footer-section .footer-links a{
     color: rgba(255, 255, 255, 0.4);
+}
+.footer-section .social-links a:hover{
+    transform: scale(1.05);
 }
 .horizontal-divider{
     width: 1px;

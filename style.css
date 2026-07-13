@@ -236,6 +236,9 @@ nav .nav-btn:hover{
 .pro-card p{
     color: rgba(255, 255, 255, 0.5);
 }
+.pro-card-hr{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
 .pro-card li::marker{
     color: #60A5FA;
 }
@@ -435,13 +438,13 @@ nav .nav-btn:hover{
 /* Footer */
 .footer{
     background-color: #0D1B2A;
-    padding: 56px 0px;
+    padding: 56px 0px 32px;
     border: 1px solid black;
 }
 .footer .footer-section{
     display: flex;
     justify-content: space-between;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 .footer-section .footer-links{
     display: flex;
@@ -452,21 +455,33 @@ nav .nav-btn:hover{
     display: flex;
     gap: 20px;
     justify-content: center;
-    padding-bottom: 10px;
-}
-.footer-section .footer-links a{
-    color: rgba(255, 255, 255, 0.4);
 }
 .footer-section .social-links a:hover{
     transform: scale(1.05);
 }
+
 .horizontal-divider{
     width: 1px;
-    height: 100px;
-    background-color: #575757;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.footer-hr{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1)
+}
+.footer-links{
+    display: flex;
+    gap: 10px;
+}
+.footer-links a{
+    color: rgba(255, 255, 255, 0.4);
 }
 .copyright-text{
     color: rgba(255, 255, 255, 0.4);
-    text-align: center;
 }
 /* Footer end */
